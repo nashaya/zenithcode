@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -26,4 +27,33 @@ body{
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.header-img img {
+    width: 500px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 50px;
+    gap: 50px;
+}
+
+.title{
+    color: #F9FAF8;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.subtext {
+    color: #F9FAF8;
+    filter: contrast(70%);
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }
