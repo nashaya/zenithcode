@@ -9,6 +9,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
+    flex: 0;
+    width: 920px;
+    align-self: center;
 }
 
 .header-main {
@@ -17,6 +21,8 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 90%;
+    align-self: center;
 }
 
 .header-text {
