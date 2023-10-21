@@ -2,14 +2,29 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    color:#F9FAF8;
 }
 
-.header {
+.left, .right {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    gap: 50px;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    justify-content: space-around;
-    flex: 1;
-    color: #F9FAF8;
+    gap: 50px;
+    padding-bottom: 150px;
+    padding-top: 10px;
+    margin: 0;
 }
 
 .links {
@@ -21,7 +36,11 @@ body{
 
 .logo {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
 }
 
 a {
@@ -33,23 +52,17 @@ a {
     width: 500px;
 }
 
-.top-content {
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-    padding: 50px;
-    gap: 50px;
-}
-
 .title{
     color: #F9FAF8;
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 .subtext {
     color: #F9FAF8;
-    filter: contrast(70%);
+    filter: contrast(60%);
+    font-size: 18px;
 }
 
 .main-text {
@@ -57,3 +70,5 @@ a {
     flex-direction: column;
     width: 400px;
 }
+
+
