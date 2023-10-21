@@ -83,6 +83,7 @@ a {
     border-radius: 10px;
     width: 150px;
     border-color: #3882F6;
+    justify-content: center;
 }
 
 .main-text {
@@ -206,7 +207,7 @@ a {
 .con {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 70%;
     justify-content: center;
     gap: 30px;
 }
