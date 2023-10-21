@@ -201,6 +201,7 @@ a {
     display: flex;
     width: 55%;
     justify-content: center;
+    gap: 50px;
 }
 
 .footer {
