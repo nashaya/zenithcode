@@ -26,7 +26,6 @@ body{
     padding-top: 10px;
     margin: 0;
     color:#F9FAF8;
-    flex-wrap: wrap;
 }
 
 .links {
@@ -68,11 +67,8 @@ a {
     line-height: 25px;
 }
 
-.button {
+.button button {
     display:flex;
-}
-
-button {
     margin-top: -50px;
     background-color: #3882F6;
     color: #fff;
@@ -80,6 +76,7 @@ button {
     font-size: 18px;
     border-radius: 10px;
     width: 150px;
+    border-color: #3882F6;
 }
 
 .main-text {
@@ -134,15 +131,17 @@ button {
     background-color: #E5E7EB;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     padding: 100px;
-    
+    overflow: hidden;
 }
 
 .quote {
+    display: flex;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    width: 920px;
+    width: 55%;
 }
 
 .quote-name {
@@ -150,8 +149,64 @@ button {
     align-self: center;
     font-size: 20px;
     margin-top: 20px;
-    width: 920px;
+    width: 55%;
+    /*width: 920px; */
     justify-content: flex-end;
 }
 
+.action {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 40%;
+    align-self: center;
+}
 
+.action-button button {
+ display: flex;
+ flex-shrink: 0;
+ width: 100px;
+ justify-content: center;
+ align-items: center;
+ height: 40px;
+ font-size: 18px;
+ color: #fff;
+ background-color:#3882F6;
+ border: 1px solid #fff;
+ border-radius: 10px;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.sign-up {
+    margin-top: -10px;
+}
+
+.title-signup {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.con {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+}
+
+.footer {
+    background-color:#1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
